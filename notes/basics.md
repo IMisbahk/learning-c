@@ -12,6 +12,10 @@ will prolly cover hello world and shit
     so first line becomes #include <stido.h>
 
 
+    ➜  basics git:(main) ✗ ./a.out
+    hello, world
+
+
 ps: we cant use `'` for strings like we can in python, we HAVE to use `"`
 
 
@@ -27,4 +31,6 @@ ritchie's book begins the function with the function name eg.
     }
 
 revised newer c99 versions include type specifier of the function else ``error: type specifier missing``
+
+
 
