@@ -38,4 +38,6 @@ For every concept I learn I will:
 - build a small program
 - commit the result
 
+ps: for this wntire course, ill be reading throught the book - 'THE C PROGRAMMING LANGUAGE - ritchie'
+
 happy watching me bleed : ) 
