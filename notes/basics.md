@@ -11,7 +11,8 @@ will prolly cover hello world and shit
 
     so first line becomes #include <stido.h>
 
-    ps: we cant use `'` for strings like we can in python, we HAVE to use `"`
+
+ps: we cant use `'` for strings like we can in python, we HAVE to use `"`
 
 
     
@@ -20,12 +21,10 @@ will prolly cover hello world and shit
 
 ritchie's book begins the function with the function name eg. 
 
-``c
-main()
-{
-printf("hello, world\n");
-}
+    main()
+    {
+    printf("hello, world\n");
+    }
 
-``
 revised newer c99 versions include type specifier of the function else ``error: type specifier missing``
 
