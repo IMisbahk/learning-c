@@ -4,15 +4,7 @@
         {
             "label": "Build and Run C",
             "type": "shell",
-            "command": "mkdir -p ${fileDirname}/../executables && gcc",
-            "args": [
-                "-Wall",
-                "${file}",
-                "-o",
-                "${fileDirname}/../executables/${fileBasenameNoExtension}",
-                "&&",
-                "${fileDirname}/../executables/${fileBasenameNoExtension}"
-            ],
+            "command": "mkdir -p ${fileDirname}/../executables && gcc -Wall ${file} -o ${fileDirname}/../executables/${fileBasenameNoExtension} && ${fileDirname}/../executables/${fileBasenameNoExtension}",
             "group": {
                 "kind": "build",
                 "isDefault": true
