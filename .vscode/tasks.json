@@ -4,14 +4,14 @@
         {
             "label": "Build and Run C",
             "type": "shell",
-            "command": "gcc",
+            "command": "mkdir -p ${fileDirname}/../executables && gcc",
             "args": [
                 "-Wall",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}",
+                "${fileDirname}/../executables/${fileBasenameNoExtension}",
                 "&&",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/../executables/${fileBasenameNoExtension}"
             ],
             "group": {
                 "kind": "build",
