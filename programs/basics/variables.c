@@ -46,7 +46,7 @@ int main() {
         int remainder = a % b; // modulus operator gives the remainder of the division
         int increment = a++; // post-increment, returns a then increments
         int decrement = b--; // post-decrement, returns b then decrements
-        int exponentiation = 0; //this sucks, C doesnt have the ** operator like python, we have to use the pow() function from math.h
+        int exponentiation; //this sucks, C doesnt have the ** operator like python, we have to use the pow() function from math.h
     
         printf("Sum: %i\n", sum);
         printf("Difference: %d\n", difference);

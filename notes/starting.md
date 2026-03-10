@@ -40,4 +40,8 @@ For every concept I learn I will:
 
 ps: for this wntire course, ill be reading throught the book - 'THE C PROGRAMMING LANGUAGE - ritchie'
 
+
+also: throughout the entirety of the project, i'll be making references to other programming languages that i know and have experience in, python, java, js/ts, and sometimes rust.
+
+
 happy watching me bleed : ) 

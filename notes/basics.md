@@ -16,10 +16,14 @@ will prolly cover hello world and shit
     hello, world
 
 
-ps: we cant use `'` for strings like we can in python, we HAVE to use `"`
+ps: we cant use - ' - for strings like we can in python, we HAVE to use - " -
 
-
+## variables.cc 
+    really cool language so far, variables pretty much same to java, we have int long short float double, the no string datatype is a little ehh messy, but techinally String is just an array of characters, and this language uses that EXACTLY
+    so it works out
     
+    
+
 ## problems encountered
 
 
@@ -31,6 +35,7 @@ ritchie's book begins the function with the function name eg.
     }
 
 revised newer c99 versions include type specifier of the function else ``error: type specifier missing``
+
 
 
 
