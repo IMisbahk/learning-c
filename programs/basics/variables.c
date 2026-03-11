@@ -25,12 +25,12 @@ int main() {
     char name[] = "misbah";
 
     //testing 
-    printf("Name: %s\n", name);
+    printf("Name: %s\n", name); 
     printf("Age: %d\n", age);
     printf("Grade: %d\n", grade);
     printf("Salary: %ld\n", salary);
     printf("Height: %.1f\n", height);
-    printf("Weight: %.1f\n", weight);
+    printf("Weight: %.1f\n", weight); 
 
 
 
@@ -55,4 +55,11 @@ int main() {
         printf("Remainder: %d\n", remainder);
         printf("Increment: %d\n", increment); // this will print 10, then increment a to 11
         printf("Decrement: %d\n", decrement); // this will print 5, then decrement b to 4
+
+
+    double pi = 3.14159265358979323846; 
+    printf("Pi: %lf\n", pi); //this printed only till 6 decimal places, cause thats the default behaviour of c
+    //if we want more, we can just do .15lf  
+    printf("Pi with more decimals: %.15lf\n", pi); //this will print pi with 15 decimal places
+
 }
