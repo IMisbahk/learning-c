@@ -4,10 +4,15 @@
         {
             "label": "Build and Run C",
             "type": "shell",
-            "command": "mkdir -p ${fileDirname}/../executables && gcc -Wall ${file} -o ${fileDirname}/../executables/${fileBasenameNoExtension} && ${fileDirname}/../executables/${fileBasenameNoExtension}",
+            "command": "clear && mkdir -p ${fileDirname}/../executables && gcc -Wall ${file} -o ${fileDirname}/../executables/${fileBasenameNoExtension} && ${fileDirname}/../executables/${fileBasenameNoExtension}",
             "group": {
                 "kind": "build",
                 "isDefault": true
+            },
+            "presentation": {
+                "clear": true,
+                "panel": "shared",
+                "focus": true
             },
             "problemMatcher": ["$gcc"]
         }

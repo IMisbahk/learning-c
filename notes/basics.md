@@ -22,7 +22,10 @@ ps: we cant use - ' - for strings like we can in python, we HAVE to use - " -
     really cool language so far, variables pretty much same to java, we have int long short float double, the no string datatype is a little ehh messy, but techinally String is just an array of characters, and this language uses that EXACTLY
     so it works out
     
-    
+## bool.c 
+    covered all datatypes, covered bool as well, with the #include <stdbool.h> header file
+    ps: % is a format specifer, that act as placeholders for variables, (just as in rust)
+
 
 ## problems encountered
 
