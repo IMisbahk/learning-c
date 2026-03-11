@@ -12,7 +12,8 @@ int main() {
     printf("\n");
 
     printf("Enter Name:");
-    scanf("%s", name);
+    fgets(name, sizeof(name), stdin);  
+    // scanf("%s", name); ( wont take full name if it has spaces, it will only take the first word)
     // printf("\n"); - dont need this after scanf cause it will by default move to the next line after taking input 
 
     printf("Enter Gender:");
@@ -24,4 +25,11 @@ int main() {
     printf("Name: %s\n", name);
     printf("Gender: %c\n", gender);
 
+    
+
+
+    /*
+    note: on inputting a string with spaces, scanf with %s will only read up to the first space- so like the first word only. 
+    to overcome this, we can just do fgets(name, sizeof(name), stdin); instead of scanf for the name input. fgets will read the entire line including spaces
+    */
 }

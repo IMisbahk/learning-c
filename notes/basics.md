@@ -26,18 +26,11 @@ ps: we cant use - ' - for strings like we can in python, we HAVE to use - " -
     covered all datatypes, covered bool as well, with the #include <stdbool.h> header file
     ps: % is a format specifer, that act as placeholders for variables, (just as in rust)
 
+ ## input.c
+    covered input methods, scanf for input, 
+    fgets for entire line of string (file get string) 
 
-## problems encountered
 
-
-ritchie's book begins the function with the function name eg. 
-
-    main()
-    {
-    printf("hello, world\n");
-    }
-
-revised newer c99 versions include type specifier of the function else ``error: type specifier missing``
 
 
 
