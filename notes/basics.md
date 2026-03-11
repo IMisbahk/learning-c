@@ -30,7 +30,9 @@ ps: we cant use - ' - for strings like we can in python, we HAVE to use - " -
     covered input methods, scanf for input, 
     fgets for entire line of string (file get string) 
 
-
+## maths.c
+    till now, its really EXTREMELY similar to java, so not much of a syntax gap for me cause im experienced in java
+    might stop now and make a simple calculator project
 
 
 
